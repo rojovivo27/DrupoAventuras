@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6ABEEA3A1E80A9430069E0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA391E80A9430069E0F7 /* AppDelegate.swift */; };
+		6ABEEA3C1E80A9430069E0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA3B1E80A9430069E0F7 /* ViewController.swift */; };
+		6ABEEA3F1E80A9430069E0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEEA3D1E80A9430069E0F7 /* Main.storyboard */; };
+		6ABEEA411E80A9430069E0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEEA401E80A9430069E0F7 /* Assets.xcassets */; };
+		6ABEEA441E80A9430069E0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEEA421E80A9430069E0F7 /* LaunchScreen.storyboard */; };
+		6ABEEA4F1E80A9430069E0F7 /* DrupoAventurasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA4E1E80A9430069E0F7 /* DrupoAventurasTests.swift */; };
+		6ABEEA5A1E80A9430069E0F7 /* DrupoAventurasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA591E80A9430069E0F7 /* DrupoAventurasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6ABEEA4B1E80A9430069E0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABEEA2E1E80A9430069E0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABEEA351E80A9430069E0F7;
+			remoteInfo = DrupoAventuras;
+		};
+		6ABEEA561E80A9430069E0F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6ABEEA2E1E80A9430069E0F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ABEEA351E80A9430069E0F7;
+			remoteInfo = DrupoAventuras;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6ABEEA361E80A9430069E0F7 /* DrupoAventuras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrupoAventuras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABEEA391E80A9430069E0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6ABEEA3B1E80A9430069E0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6ABEEA3E1E80A9430069E0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6ABEEA401E80A9430069E0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6ABEEA431E80A9430069E0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6ABEEA451E80A9430069E0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABEEA4A1E80A9430069E0F7 /* DrupoAventurasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrupoAventurasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABEEA4E1E80A9430069E0F7 /* DrupoAventurasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrupoAventurasTests.swift; sourceTree = "<group>"; };
+		6ABEEA501E80A9430069E0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABEEA551E80A9430069E0F7 /* DrupoAventurasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrupoAventurasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABEEA591E80A9430069E0F7 /* DrupoAventurasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrupoAventurasUITests.swift; sourceTree = "<group>"; };
+		6ABEEA5B1E80A9430069E0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6ABEEA331E80A9430069E0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABEEA471E80A9430069E0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABEEA521E80A9430069E0F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6ABEEA2D1E80A9430069E0F7 = {
+			isa = PBXGroup;
+			children = (
+				6ABEEA381E80A9430069E0F7 /* DrupoAventuras */,
+				6ABEEA4D1E80A9430069E0F7 /* DrupoAventurasTests */,
+				6ABEEA581E80A9430069E0F7 /* DrupoAventurasUITests */,
+				6ABEEA371E80A9430069E0F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6ABEEA371E80A9430069E0F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6ABEEA361E80A9430069E0F7 /* DrupoAventuras.app */,
+				6ABEEA4A1E80A9430069E0F7 /* DrupoAventurasTests.xctest */,
+				6ABEEA551E80A9430069E0F7 /* DrupoAventurasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6ABEEA381E80A9430069E0F7 /* DrupoAventuras */ = {
+			isa = PBXGroup;
+			children = (
+				6ABEEA391E80A9430069E0F7 /* AppDelegate.swift */,
+				6ABEEA3B1E80A9430069E0F7 /* ViewController.swift */,
+				6ABEEA3D1E80A9430069E0F7 /* Main.storyboard */,
+				6ABEEA401E80A9430069E0F7 /* Assets.xcassets */,
+				6ABEEA421E80A9430069E0F7 /* LaunchScreen.storyboard */,
+				6ABEEA451E80A9430069E0F7 /* Info.plist */,
+			);
+			path = DrupoAventuras;
+			sourceTree = "<group>";
+		};
+		6ABEEA4D1E80A9430069E0F7 /* DrupoAventurasTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABEEA4E1E80A9430069E0F7 /* DrupoAventurasTests.swift */,
+				6ABEEA501E80A9430069E0F7 /* Info.plist */,
+			);
+			path = DrupoAventurasTests;
+			sourceTree = "<group>";
+		};
+		6ABEEA581E80A9430069E0F7 /* DrupoAventurasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6ABEEA591E80A9430069E0F7 /* DrupoAventurasUITests.swift */,
+				6ABEEA5B1E80A9430069E0F7 /* Info.plist */,
+			);
+			path = DrupoAventurasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6ABEEA351E80A9430069E0F7 /* DrupoAventuras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABEEA5E1E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventuras" */;
+			buildPhases = (
+				6ABEEA321E80A9430069E0F7 /* Sources */,
+				6ABEEA331E80A9430069E0F7 /* Frameworks */,
+				6ABEEA341E80A9430069E0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrupoAventuras;
+			productName = DrupoAventuras;
+			productReference = 6ABEEA361E80A9430069E0F7 /* DrupoAventuras.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6ABEEA491E80A9430069E0F7 /* DrupoAventurasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABEEA611E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventurasTests" */;
+			buildPhases = (
+				6ABEEA461E80A9430069E0F7 /* Sources */,
+				6ABEEA471E80A9430069E0F7 /* Frameworks */,
+				6ABEEA481E80A9430069E0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABEEA4C1E80A9430069E0F7 /* PBXTargetDependency */,
+			);
+			name = DrupoAventurasTests;
+			productName = DrupoAventurasTests;
+			productReference = 6ABEEA4A1E80A9430069E0F7 /* DrupoAventurasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ABEEA541E80A9430069E0F7 /* DrupoAventurasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ABEEA641E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventurasUITests" */;
+			buildPhases = (
+				6ABEEA511E80A9430069E0F7 /* Sources */,
+				6ABEEA521E80A9430069E0F7 /* Frameworks */,
+				6ABEEA531E80A9430069E0F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6ABEEA571E80A9430069E0F7 /* PBXTargetDependency */,
+			);
+			name = DrupoAventurasUITests;
+			productName = DrupoAventurasUITests;
+			productReference = 6ABEEA551E80A9430069E0F7 /* DrupoAventurasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6ABEEA2E1E80A9430069E0F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Aldo Roldan Hernandez Rea";
+				TargetAttributes = {
+					6ABEEA351E80A9430069E0F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SCL98AP6MS;
+						ProvisioningStyle = Automatic;
+					};
+					6ABEEA491E80A9430069E0F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SCL98AP6MS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ABEEA351E80A9430069E0F7;
+					};
+					6ABEEA541E80A9430069E0F7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = SCL98AP6MS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6ABEEA351E80A9430069E0F7;
+					};
+				};
+			};
+			buildConfigurationList = 6ABEEA311E80A9430069E0F7 /* Build configuration list for PBXProject "DrupoAventuras" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6ABEEA2D1E80A9430069E0F7;
+			productRefGroup = 6ABEEA371E80A9430069E0F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6ABEEA351E80A9430069E0F7 /* DrupoAventuras */,
+				6ABEEA491E80A9430069E0F7 /* DrupoAventurasTests */,
+				6ABEEA541E80A9430069E0F7 /* DrupoAventurasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6ABEEA341E80A9430069E0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABEEA441E80A9430069E0F7 /* LaunchScreen.storyboard in Resources */,
+				6ABEEA411E80A9430069E0F7 /* Assets.xcassets in Resources */,
+				6ABEEA3F1E80A9430069E0F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABEEA481E80A9430069E0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABEEA531E80A9430069E0F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6ABEEA321E80A9430069E0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABEEA3C1E80A9430069E0F7 /* ViewController.swift in Sources */,
+				6ABEEA3A1E80A9430069E0F7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABEEA461E80A9430069E0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABEEA4F1E80A9430069E0F7 /* DrupoAventurasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ABEEA511E80A9430069E0F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ABEEA5A1E80A9430069E0F7 /* DrupoAventurasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6ABEEA4C1E80A9430069E0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABEEA351E80A9430069E0F7 /* DrupoAventuras */;
+			targetProxy = 6ABEEA4B1E80A9430069E0F7 /* PBXContainerItemProxy */;
+		};
+		6ABEEA571E80A9430069E0F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ABEEA351E80A9430069E0F7 /* DrupoAventuras */;
+			targetProxy = 6ABEEA561E80A9430069E0F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6ABEEA3D1E80A9430069E0F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABEEA3E1E80A9430069E0F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6ABEEA421E80A9430069E0F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6ABEEA431E80A9430069E0F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6ABEEA5C1E80A9430069E0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6ABEEA5D1E80A9430069E0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6ABEEA5F1E80A9430069E0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SCL98AP6MS;
+				INFOPLIST_FILE = DrupoAventuras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldoroldan.redlab.DrupoAventuras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6ABEEA601E80A9430069E0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SCL98AP6MS;
+				INFOPLIST_FILE = DrupoAventuras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldoroldan.redlab.DrupoAventuras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6ABEEA621E80A9430069E0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SCL98AP6MS;
+				INFOPLIST_FILE = DrupoAventurasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldoroldan.redlab.DrupoAventurasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrupoAventuras.app/DrupoAventuras";
+			};
+			name = Debug;
+		};
+		6ABEEA631E80A9430069E0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SCL98AP6MS;
+				INFOPLIST_FILE = DrupoAventurasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldoroldan.redlab.DrupoAventurasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrupoAventuras.app/DrupoAventuras";
+			};
+			name = Release;
+		};
+		6ABEEA651E80A9430069E0F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SCL98AP6MS;
+				INFOPLIST_FILE = DrupoAventurasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldoroldan.redlab.DrupoAventurasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DrupoAventuras;
+			};
+			name = Debug;
+		};
+		6ABEEA661E80A9430069E0F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SCL98AP6MS;
+				INFOPLIST_FILE = DrupoAventurasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aldoroldan.redlab.DrupoAventurasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DrupoAventuras;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6ABEEA311E80A9430069E0F7 /* Build configuration list for PBXProject "DrupoAventuras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABEEA5C1E80A9430069E0F7 /* Debug */,
+				6ABEEA5D1E80A9430069E0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ABEEA5E1E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventuras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABEEA5F1E80A9430069E0F7 /* Debug */,
+				6ABEEA601E80A9430069E0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ABEEA611E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventurasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABEEA621E80A9430069E0F7 /* Debug */,
+				6ABEEA631E80A9430069E0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6ABEEA641E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventurasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6ABEEA651E80A9430069E0F7 /* Debug */,
+				6ABEEA661E80A9430069E0F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6ABEEA2E1E80A9430069E0F7 /* Project object */;
+}
