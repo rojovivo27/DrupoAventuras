@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2650126370A306CF13AEEC96 /* Pods_DrupoAventurasUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79AC165E24277FF3FDFDCEDE /* Pods_DrupoAventurasUITests.framework */; };
 		6ABEEA3A1E80A9430069E0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA391E80A9430069E0F7 /* AppDelegate.swift */; };
 		6ABEEA3C1E80A9430069E0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA3B1E80A9430069E0F7 /* ViewController.swift */; };
 		6ABEEA3F1E80A9430069E0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEEA3D1E80A9430069E0F7 /* Main.storyboard */; };
@@ -14,6 +15,11 @@
 		6ABEEA441E80A9430069E0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEEA421E80A9430069E0F7 /* LaunchScreen.storyboard */; };
 		6ABEEA4F1E80A9430069E0F7 /* DrupoAventurasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA4E1E80A9430069E0F7 /* DrupoAventurasTests.swift */; };
 		6ABEEA5A1E80A9430069E0F7 /* DrupoAventurasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA591E80A9430069E0F7 /* DrupoAventurasUITests.swift */; };
+		6ABEEA681E80AD120069E0F7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEEA671E80AD120069E0F7 /* GoogleService-Info.plist */; };
+		6ABEEA6B1E80C8440069E0F7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA6A1E80C8440069E0F7 /* HomeViewController.swift */; };
+		6ABEEA6D1E819C1F0069E0F7 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEEA6C1E819C1F0069E0F7 /* TextFieldViewController.swift */; };
+		8F7E963735D130C6A68BC270 /* Pods_DrupoAventurasTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0D9B4A8A4D7B1D6F8F27BC /* Pods_DrupoAventurasTests.framework */; };
+		DCED59BE1FB41BEA505A98F0 /* Pods_DrupoAventuras.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F896127F62BED225B2C53BC /* Pods_DrupoAventuras.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FCEA9FB43D2EC9F0939BC2 /* Pods-DrupoAventurasTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrupoAventurasTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrupoAventurasTests/Pods-DrupoAventurasTests.debug.xcconfig"; sourceTree = "<group>"; };
+		16C119578422567211218B6C /* Pods-DrupoAventurasTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrupoAventurasTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrupoAventurasTests/Pods-DrupoAventurasTests.release.xcconfig"; sourceTree = "<group>"; };
+		2F0D9B4A8A4D7B1D6F8F27BC /* Pods_DrupoAventurasTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrupoAventurasTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F896127F62BED225B2C53BC /* Pods_DrupoAventuras.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrupoAventuras.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BCA36A031FBB461CE136592 /* Pods-DrupoAventuras.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrupoAventuras.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrupoAventuras/Pods-DrupoAventuras.release.xcconfig"; sourceTree = "<group>"; };
 		6ABEEA361E80A9430069E0F7 /* DrupoAventuras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrupoAventuras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABEEA391E80A9430069E0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6ABEEA3B1E80A9430069E0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,14 @@
 		6ABEEA551E80A9430069E0F7 /* DrupoAventurasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrupoAventurasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ABEEA591E80A9430069E0F7 /* DrupoAventurasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrupoAventurasUITests.swift; sourceTree = "<group>"; };
 		6ABEEA5B1E80A9430069E0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6ABEEA671E80AD120069E0F7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6ABEEA691E80AF440069E0F7 /* DrupoAventuras.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DrupoAventuras.entitlements; sourceTree = "<group>"; };
+		6ABEEA6A1E80C8440069E0F7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6ABEEA6C1E819C1F0069E0F7 /* TextFieldViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
+		6FF8E9A5675CCC51D84BF9C7 /* Pods-DrupoAventurasUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrupoAventurasUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrupoAventurasUITests/Pods-DrupoAventurasUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79AC165E24277FF3FDFDCEDE /* Pods_DrupoAventurasUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DrupoAventurasUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96C65B08A595E610D1589DD1 /* Pods-DrupoAventurasUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrupoAventurasUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrupoAventurasUITests/Pods-DrupoAventurasUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96DFA2D31097FD4AF39EF32A /* Pods-DrupoAventuras.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrupoAventuras.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrupoAventuras/Pods-DrupoAventuras.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCED59BE1FB41BEA505A98F0 /* Pods_DrupoAventuras.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F7E963735D130C6A68BC270 /* Pods_DrupoAventurasTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2650126370A306CF13AEEC96 /* Pods_DrupoAventurasUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B856ED2946185BDABDDB723 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96DFA2D31097FD4AF39EF32A /* Pods-DrupoAventuras.debug.xcconfig */,
+				5BCA36A031FBB461CE136592 /* Pods-DrupoAventuras.release.xcconfig */,
+				04FCEA9FB43D2EC9F0939BC2 /* Pods-DrupoAventurasTests.debug.xcconfig */,
+				16C119578422567211218B6C /* Pods-DrupoAventurasTests.release.xcconfig */,
+				6FF8E9A5675CCC51D84BF9C7 /* Pods-DrupoAventurasUITests.debug.xcconfig */,
+				96C65B08A595E610D1589DD1 /* Pods-DrupoAventurasUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		35953DED623446A0A0952638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F896127F62BED225B2C53BC /* Pods_DrupoAventuras.framework */,
+				2F0D9B4A8A4D7B1D6F8F27BC /* Pods_DrupoAventurasTests.framework */,
+				79AC165E24277FF3FDFDCEDE /* Pods_DrupoAventurasUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6ABEEA2D1E80A9430069E0F7 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +126,8 @@
 				6ABEEA4D1E80A9430069E0F7 /* DrupoAventurasTests */,
 				6ABEEA581E80A9430069E0F7 /* DrupoAventurasUITests */,
 				6ABEEA371E80A9430069E0F7 /* Products */,
+				2B856ED2946185BDABDDB723 /* Pods */,
+				35953DED623446A0A0952638 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +144,16 @@
 		6ABEEA381E80A9430069E0F7 /* DrupoAventuras */ = {
 			isa = PBXGroup;
 			children = (
+				6ABEEA691E80AF440069E0F7 /* DrupoAventuras.entitlements */,
 				6ABEEA391E80A9430069E0F7 /* AppDelegate.swift */,
 				6ABEEA3B1E80A9430069E0F7 /* ViewController.swift */,
 				6ABEEA3D1E80A9430069E0F7 /* Main.storyboard */,
 				6ABEEA401E80A9430069E0F7 /* Assets.xcassets */,
 				6ABEEA421E80A9430069E0F7 /* LaunchScreen.storyboard */,
 				6ABEEA451E80A9430069E0F7 /* Info.plist */,
+				6ABEEA671E80AD120069E0F7 /* GoogleService-Info.plist */,
+				6ABEEA6A1E80C8440069E0F7 /* HomeViewController.swift */,
+				6ABEEA6C1E819C1F0069E0F7 /* TextFieldViewController.swift */,
 			);
 			path = DrupoAventuras;
 			sourceTree = "<group>";
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ABEEA5E1E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventuras" */;
 			buildPhases = (
+				44C601165594F7629C630B04 /* [CP] Check Pods Manifest.lock */,
 				6ABEEA321E80A9430069E0F7 /* Sources */,
 				6ABEEA331E80A9430069E0F7 /* Frameworks */,
 				6ABEEA341E80A9430069E0F7 /* Resources */,
+				3DB0012FBA5473F4BDE5280B /* [CP] Embed Pods Frameworks */,
+				9EAE42CA09B8D10A7697561D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ABEEA611E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventurasTests" */;
 			buildPhases = (
+				FF5FD17E6A12DA94E8FD84DD /* [CP] Check Pods Manifest.lock */,
 				6ABEEA461E80A9430069E0F7 /* Sources */,
 				6ABEEA471E80A9430069E0F7 /* Frameworks */,
 				6ABEEA481E80A9430069E0F7 /* Resources */,
+				1F3246DF2031951401DA4AEA /* [CP] Embed Pods Frameworks */,
+				93508FDBB17570266555789B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6ABEEA641E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventurasUITests" */;
 			buildPhases = (
+				B7A57AC2701A7A039F899E80 /* [CP] Check Pods Manifest.lock */,
 				6ABEEA511E80A9430069E0F7 /* Sources */,
 				6ABEEA521E80A9430069E0F7 /* Frameworks */,
 				6ABEEA531E80A9430069E0F7 /* Resources */,
+				678645D007761B18ADB12773 /* [CP] Embed Pods Frameworks */,
+				2A5F6D7322824D424BD2253D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +255,17 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = SCL98AP6MS;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					6ABEEA491E80A9430069E0F7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -236,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ABEEA441E80A9430069E0F7 /* LaunchScreen.storyboard in Resources */,
+				6ABEEA681E80AD120069E0F7 /* GoogleService-Info.plist in Resources */,
 				6ABEEA411E80A9430069E0F7 /* Assets.xcassets in Resources */,
 				6ABEEA3F1E80A9430069E0F7 /* Main.storyboard in Resources */,
 			);
@@ -257,13 +329,153 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F3246DF2031951401DA4AEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrupoAventurasTests/Pods-DrupoAventurasTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A5F6D7322824D424BD2253D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrupoAventurasUITests/Pods-DrupoAventurasUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3DB0012FBA5473F4BDE5280B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrupoAventuras/Pods-DrupoAventuras-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44C601165594F7629C630B04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		678645D007761B18ADB12773 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrupoAventurasUITests/Pods-DrupoAventurasUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93508FDBB17570266555789B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrupoAventurasTests/Pods-DrupoAventurasTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EAE42CA09B8D10A7697561D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrupoAventuras/Pods-DrupoAventuras-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7A57AC2701A7A039F899E80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF5FD17E6A12DA94E8FD84DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6ABEEA321E80A9430069E0F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ABEEA6D1E819C1F0069E0F7 /* TextFieldViewController.swift in Sources */,
 				6ABEEA3C1E80A9430069E0F7 /* ViewController.swift in Sources */,
 				6ABEEA3A1E80A9430069E0F7 /* AppDelegate.swift in Sources */,
+				6ABEEA6B1E80C8440069E0F7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,10 +623,13 @@
 		};
 		6ABEEA5F1E80A9430069E0F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96DFA2D31097FD4AF39EF32A /* Pods-DrupoAventuras.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrupoAventuras/DrupoAventuras.entitlements;
 				DEVELOPMENT_TEAM = SCL98AP6MS;
 				INFOPLIST_FILE = DrupoAventuras/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aldoroldan.redlab.DrupoAventuras;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -424,10 +639,13 @@
 		};
 		6ABEEA601E80A9430069E0F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCA36A031FBB461CE136592 /* Pods-DrupoAventuras.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DrupoAventuras/DrupoAventuras.entitlements;
 				DEVELOPMENT_TEAM = SCL98AP6MS;
 				INFOPLIST_FILE = DrupoAventuras/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.aldoroldan.redlab.DrupoAventuras;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -437,6 +655,7 @@
 		};
 		6ABEEA621E80A9430069E0F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04FCEA9FB43D2EC9F0939BC2 /* Pods-DrupoAventurasTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +671,7 @@
 		};
 		6ABEEA631E80A9430069E0F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16C119578422567211218B6C /* Pods-DrupoAventurasTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,6 +687,7 @@
 		};
 		6ABEEA651E80A9430069E0F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF8E9A5675CCC51D84BF9C7 /* Pods-DrupoAventurasUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SCL98AP6MS;
@@ -481,6 +702,7 @@
 		};
 		6ABEEA661E80A9430069E0F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96C65B08A595E610D1589DD1 /* Pods-DrupoAventurasUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = SCL98AP6MS;
@@ -512,6 +734,7 @@
 				6ABEEA601E80A9430069E0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ABEEA611E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventurasTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +743,7 @@
 				6ABEEA631E80A9430069E0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ABEEA641E80A9430069E0F7 /* Build configuration list for PBXNativeTarget "DrupoAventurasUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +752,7 @@
 				6ABEEA661E80A9430069E0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
